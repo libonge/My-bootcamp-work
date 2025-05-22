@@ -1,5 +1,4 @@
- # Request user to enter their full_name 
-
+# Request user to enter their full_name 
 full_name = input("Please enter your full_name : \n")
 
 # Validate the full_name entered by the user and if they haven't
@@ -15,13 +14,11 @@ elif len (full_name) < 4:
 
 # Validate the full_name entered by the user and if they haven't 
 # print error message
-
 elif len (full_name) > 25: 
        print("You have entered more than 25 chars please make sure that you entered only your full_name")
        
 # Validate the full_name entered by the user and if they have 
 # print message of apprecaiton for their cooperation
-
 else: 
       len (full_name) > 4 
       print("Thank you for entering your name ")
